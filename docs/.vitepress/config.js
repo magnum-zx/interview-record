@@ -1,14 +1,14 @@
 export default {
 	base: '/',
-	title: 'zx-blog', //站点标题
-	description: '记录一下本人的学习过程', //mate标签description，多用于搜索引擎抓取摘要
+	title: 'Everything for Frontend', //站点标题
+	description: '与前端有关的一切...', //mate标签description，多用于搜索引擎抓取摘要
 	lastUpdated: true,
 	dest: 'public',
 	markdown: {
 		lineNumbers: true, //显示代码行数
 	},
 	themeConfig: {
-		siteTitle: 'ZX的博客',
+		siteTitle: 'Everything for Frontend',
 		// logo: "/logo.png",
 		nav: [{ text: 'github', link: 'https://github.com/magnum-zx' }],
 		socialLinks: [{ icon: 'github', link: 'https://github.com/magnum-zx' }],
@@ -19,33 +19,65 @@ export default {
 function getSidebar() {
 	return [
 		{
-			text: 'JS手写题',
+			text: 'handwriting',
 			items: [
+				// {
+				// 	text: 'handwriting',
+				// 	link: '/articles/handwriting/',
+				// },
 				{
-					text: 'Introduction',
-					link: '/articles/jsCode/',
-				},
-				{
-					text: '实现Promise',
-					link: '/articles/jsCode/Promise',
+					text: '实现Promise类',
+					link: '/articles/handwriting/promise',
 				},
 				{
 					text: '实现Promise类方法',
-					link: '/articles/jsCode/PromiseClassFunction',
+					link: '/articles/handwriting/promise-class-function',
 				},
 				{
 					text: '实现发布订阅模式',
-					link: '/articles/jsCode/发布订阅模式',
+					link: '/articles/handwriting/publish-subscribe',
 				},
 				{
 					text: '实现函数柯里化',
-					link: '/articles/jsCode/柯里化',
+					link: '/articles/handwriting/curring',
 				},
 				{
 					text: '实现数组拍平',
-					link: '/articles/jsCode/数组拍平',
+					link: '/articles/handwriting/array-flat',
 				},
 			],
 		},
+		{
+			text: 'js',
+			items: [
+				
+			],
+		},
+		{
+			text: 'css',
+			items: [
+				
+			],
+		},
+		{
+			text: 'vue',
+			items: [
+				
+			],
+		},
+		{
+			text: 'react',
+			items: [
+				
+			],
+		},
+		{
+			text: 'ts',
+			items: [
+				
+			],
+		},
+
+
 	]
 }
