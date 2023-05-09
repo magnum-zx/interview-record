@@ -1,16 +1,17 @@
 {
-	"name": "zx-blog",
+	"name": "everything-for-frontend",
 	"version": "1.0.0",
 	"main": "index.js",
-	"author": "zx_wu",
+	"author": "magnum-zx",
 	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"docs:dev": "vitepress dev docs",
 		"docs:build": "vitepress build docs",
 		"docs:serve": "vitepress serve docs --port 8080"
 	},
 	"devDependencies": {
-		"vitepress": "^1.0.0-alpha.4",
+		"vitepress": "1.0.0-alpha.75",
 		"vue": "^3.2.37"
 	}
 }
